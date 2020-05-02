@@ -1,0 +1,126 @@
+/*DIVS GERAIS*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.content{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/*DIVS ESPECÍFICAS*/
+
+section.body{
+    background-image: url('../images/bgtinder.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section.body .img-wraper{
+    float: left;
+    margin-left: 50px;
+    background-color: white;
+    border-radius:40px;
+}
+
+section.body header img:nth-of-type(1){
+    width: 200px;
+}
+
+section.body .header-menu{
+    float: right;
+    text-align: center;
+    padding-top: 20px;
+}
+
+section.body .header-menu > a{
+    text-decoration: none;
+    float: left;
+    position: relative;
+    top: 20px;
+    background-color: white;
+    color: #FD4170;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100px;
+    line-height: 35px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+section.body .header-menu a:hover{
+    background:linear-gradient(to right,#FD297B,#FE7357);
+    color: white;
+}
+
+section.body .header-menu .img1{
+    width: 72px;
+    float: left;
+    cursor: pointer;
+}
+
+section.body .body-wraped{
+    padding: 40px 0;
+    text-align: center;
+}
+
+section.body .body-wraped h1{
+    color: white;
+    font-size: 100px;
+    letter-spacing: 4px;
+}
+
+section.body .body-wraped .p-wraped{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+section.body .body-wraped p{
+    color: white;
+    font-size: 13px;
+}
+
+section.body .body-wraped .a-wraped{
+    background:linear-gradient(to right,#FD297B,#FE7357);
+    margin: 0 auto;
+    width: 250px;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+section.body .body-wraped .a-wraped:hover{
+    background: #FD5068;
+}
+
+section.body .body-wraped a{
+    color:white;
+    text-decoration: none;
+}
+
+section.body footer{
+    padding: 40px 0;
+    text-align: center;
+}
+
+section.body footer p{
+    color: white;
+    font-size: 25px;
+}
